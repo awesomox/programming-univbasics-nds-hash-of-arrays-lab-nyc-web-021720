@@ -10,4 +10,6 @@ def add_character(show, name)
   p BASE_HOA
 end
 
-add_character(:chipmunks, "Dad")
+add_character(:chipmunks, "Dave")
+add_character(:third_earthers, "Snarf")
+add_character(:jetsons, "Astro")
