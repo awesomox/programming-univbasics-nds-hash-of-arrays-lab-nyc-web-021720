@@ -13,3 +13,4 @@ add_character(:chipmunks, "Dave")
 add_character(:third_earthers, "Snarf")
 add_character(:jetsons, "Astro")
 
+#Each time add_character is run here, IRB fails the test because it's adding each new character name twice (eg. it's returning "Dave" twice despite only running once); this issue isn't showing up when I run the same code in Repl.it (returns results that test is looking for)
